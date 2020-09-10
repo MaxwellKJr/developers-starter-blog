@@ -1,0 +1,53 @@
+.main-nav {
+  background: #131313;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.main-nav .logo {
+  font-family: "Odibee Sans", poppins, sans-serif;
+  color: var(--primary-color);
+  text-transform: capitalize;
+}
+
+.main-nav .nav-links a {
+  color: #e9e9e9;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  transition: all 500ms ease-in-out;
+}
+
+.main-nav .nav-links a:hover {
+  color: var(--primary-color);
+}
+
+.main-nav .nav-links .active {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+@media (max-width: 995px) {
+  .nav-links {
+    position: absolute;
+    top: 100%;
+    left: 5%;
+    right: 5%;
+    display: flex;
+    flex-direction: column;
+    background: var(--primary-dark);
+    transition: all 400ms ease-in-out;
+    transform: translateY(-150%);
+    text-align: center;
+  }
+
+  .nav-links.toggle-menu {
+    transform: translateY(0%);
+  }
+
+  .burger {
+    font-size: 1.3rem;
+  }
+}
