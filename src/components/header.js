@@ -1,17 +1,14 @@
 import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
+import "./css/header.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
-  faBars,
   faHome,
+  faEnvelope,
   faLaptopCode,
-  faMale,
   faPen,
-  faPhone,
-  faUser,
   faUserAlt,
 } from "@fortawesome/free-solid-svg-icons"
-import "./css/header.css"
 import {
   faFacebook,
   faGithub,
@@ -19,6 +16,7 @@ import {
   faTwitter,
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons"
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons"
 
 const Header = () => {
   const data = useStaticQuery(graphql`
@@ -71,7 +69,7 @@ const Header = () => {
           </li>
           <li className="nav-link">
             <Link to="/contact" activeClassName="active">
-              <FontAwesomeIcon icon={faPhone} className="show-on-med" />
+              <FontAwesomeIcon icon={faEnvelope} className="show-on-med" />
               <span>contact</span>
             </Link>
           </li>
