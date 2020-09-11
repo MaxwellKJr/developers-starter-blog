@@ -133,3 +133,20 @@
     font-size: 0.6rem;
   }
 }
+
+@media (max-height: 450px) {
+  .main-nav {
+    height: 13vh;
+  }
+
+  .main-nav .nav-links a .show-on-med {
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 90%;
+  }
+
+  .main-nav .nav-links a span {
+    display: none;
+  }
+}
