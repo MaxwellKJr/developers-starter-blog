@@ -97,6 +97,7 @@
 
   .main-nav .wrapper {
     width: 90%;
+    min-width: calc(100% - 2rem);
   }
 
   .main-nav .wrapper,
@@ -108,6 +109,7 @@
   .main-nav .nav-links a {
     position: relative;
     padding-top: 1.5rem;
+    color: #c0c0c0;
   }
 
   .main-nav .nav-links a .show-on-med {
@@ -123,5 +125,11 @@
 
   .main-nav .logo {
     display: none;
+  }
+}
+
+@media (max-width: 560px) {
+  .main-nav .nav-links a span {
+    font-size: 0.6rem;
   }
 }

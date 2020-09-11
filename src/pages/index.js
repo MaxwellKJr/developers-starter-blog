@@ -1,9 +1,8 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 import "materialize-css/dist/css/materialize.min.css"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Img from "../img/showcase.jpg"
 import "./css/index.css"
 
 const BlogIndex = ({ data, location }) => {

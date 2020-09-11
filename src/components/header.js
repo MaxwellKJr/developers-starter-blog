@@ -3,8 +3,8 @@ import { Link, useStaticQuery, graphql } from "gatsby"
 import "./css/header.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
-  faHome,
   faEnvelope,
+  faHome,
   faLaptopCode,
   faPen,
   faUserAlt,
@@ -16,7 +16,6 @@ import {
   faTwitter,
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons"
-import { faEnvelope } from "@fortawesome/free-regular-svg-icons"
 
 const Header = () => {
   const data = useStaticQuery(graphql`
@@ -30,11 +29,6 @@ const Header = () => {
   `)
 
   const title = data.site.siteMetadata.title
-
-  const toggleMenu = () => {
-    const navLinks = document.querySelector(".nav-links")
-    navLinks.classList.toggle("toggle-menu")
-  }
 
   return (
     <nav className="main-nav">
@@ -76,38 +70,31 @@ const Header = () => {
         </ul>
         <ul className="social-links">
           <li>
-            <a href="#">
+            <Link to="https://twitter.com/maxwellkjr" target="_blank">
               <FontAwesomeIcon icon={faFacebook} />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <FontAwesomeIcon icon={faTwitter} />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <FontAwesomeIcon icon={faInstagram} />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <FontAwesomeIcon icon={faGithub} />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <FontAwesomeIcon icon={faWhatsapp} />
-            </a>
-          </li>
-        </ul>
-        {/* <ul className="hide-on-large-only" onClick={toggleMenu}>
-          <li>
-            <Link to="#">
-              <FontAwesomeIcon icon={faBars} className="burger" />
             </Link>
           </li>
-        </ul> */}
+          <li>
+            <Link to="https://twitter.com/maxwellkjr" target="_blank">
+              <FontAwesomeIcon icon={faTwitter} />
+            </Link>
+          </li>
+          <li>
+            <Link to="https://twitter.com/maxwellkjr" target="_blank">
+              <FontAwesomeIcon icon={faInstagram} />
+            </Link>
+          </li>
+          <li>
+            <Link to="https://twitter.com/maxwellkjr" target="_blank">
+              <FontAwesomeIcon icon={faGithub} />
+            </Link>
+          </li>
+          <li>
+            <Link to="https://twitter.com/maxwellkjr" target="_blank">
+              <FontAwesomeIcon icon={faWhatsapp} />
+            </Link>
+          </li>
+        </ul>
       </div>
     </nav>
   )
