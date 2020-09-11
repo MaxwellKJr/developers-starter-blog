@@ -1,8 +1,24 @@
 import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faBars } from "@fortawesome/free-solid-svg-icons"
+import {
+  faBars,
+  faHome,
+  faLaptopCode,
+  faMale,
+  faPen,
+  faPhone,
+  faUser,
+  faUserAlt,
+} from "@fortawesome/free-solid-svg-icons"
 import "./css/header.css"
+import {
+  faFacebook,
+  faGithub,
+  faInstagram,
+  faTwitter,
+  faWhatsapp,
+} from "@fortawesome/free-brands-svg-icons"
 
 const Header = () => {
   const data = useStaticQuery(graphql`
@@ -25,43 +41,75 @@ const Header = () => {
   return (
     <nav className="main-nav">
       <div className="wrapper">
-        <Link to="/" className="brand-logo logo">
+        <Link to="/" className="logo">
           {title}
         </Link>
-        <ul className="nav-links right">
+        <ul className="nav-links">
           <li className="nav-link">
             <Link to="/" activeClassName="active">
-              home
+              <FontAwesomeIcon icon={faHome} className="show-on-med" />
+              <span>home</span>
             </Link>
           </li>
           <li className="nav-link">
             <Link to="/about" activeClassName="active">
-              about
+              <FontAwesomeIcon icon={faUserAlt} className="show-on-med" />
+              <span>about</span>
             </Link>
           </li>
           <li className="nav-link">
             <Link to="/projects" activeClassName="active">
-              projects
+              <FontAwesomeIcon icon={faLaptopCode} className="show-on-med" />
+              <span>projects</span>
             </Link>
           </li>
           <li className="nav-link">
             <Link to="/blog" activeClassName="active">
-              blog
+              <FontAwesomeIcon icon={faPen} className="show-on-med" />
+              <span>blog</span>
             </Link>
           </li>
           <li className="nav-link">
             <Link to="/contact" activeClassName="active">
-              contact
+              <FontAwesomeIcon icon={faPhone} className="show-on-med" />
+              <span>contact</span>
             </Link>
           </li>
         </ul>
-        <ul className="right hide-on-large-only" onClick={toggleMenu}>
+        <ul className="social-links">
+          <li>
+            <a href="#">
+              <FontAwesomeIcon icon={faFacebook} />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <FontAwesomeIcon icon={faTwitter} />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <FontAwesomeIcon icon={faInstagram} />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <FontAwesomeIcon icon={faGithub} />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <FontAwesomeIcon icon={faWhatsapp} />
+            </a>
+          </li>
+        </ul>
+        {/* <ul className="hide-on-large-only" onClick={toggleMenu}>
           <li>
             <Link to="#">
               <FontAwesomeIcon icon={faBars} className="burger" />
             </Link>
           </li>
-        </ul>
+        </ul> */}
       </div>
     </nav>
   )
