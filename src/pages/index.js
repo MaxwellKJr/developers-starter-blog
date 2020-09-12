@@ -16,30 +16,24 @@ const BlogIndex = ({ data, location }) => {
           <div className="showcase-details">
             <div className="row">
               <div className="col s12 m12 l6">
-                <h1>The Struggling Programmer</h1>
-                <p className="occupations">
-                  Front-End Developer | Writer | Gamer
-                </p>
-                <p>
-                  A platform to showcase my web development journey and share
-                  the few things I know.
-                </p>
-                <div className="ctas">
-                  <Link to="/projects" className="btn-primary">
-                    View Projects
-                  </Link>
-                  <Link to="/contact" className="btn-primary">
-                    Contact Me
-                  </Link>
+                <div className="details">
+                  <h1>The Struggling Programmer</h1>
+                  <p className="occupations">
+                    Front-End Developer | Writer | Gamer
+                  </p>
+                  <p>
+                    A platform to showcase my web development journey and share
+                    the few things I know.
+                  </p>
+                  <div className="ctas">
+                    <Link to="/projects" className="btn-primary">
+                      View Projects
+                    </Link>
+                    <Link to="/contact" className="btn-primary">
+                      Contact Me
+                    </Link>
+                  </div>
                 </div>
-              </div>
-              <div className="col s12 m12 l6">
-                <h1>The Struggling Programmer</h1>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex
-                  dicta consectetur blanditiis distinctio optio facilis eos
-                  vitae voluptates beatae tempore!
-                </p>
               </div>
             </div>
           </div>

@@ -30,13 +30,13 @@
 
 .btn-primary {
   display: inline-flex;
-  width: 100px;
+  width: 140px;
   height: 40px;
   justify-content: center;
   align-items: center;
-  background: #fdfdfd;
+  background: var(--primary-light);
   color: #333;
-  font-weight: 600;
+  font-weight: 500;
   position: relative;
   transition: all 300ms ease-in-out;
   z-index: 1;
@@ -106,14 +106,14 @@ p {
 
 /* ANIMATIONS */
 @keyframes fadeIn {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-
   from {
     opacity: 0;
     transform: translateY(-50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
@@ -129,6 +129,16 @@ p {
 #showcase .wrapper {
   width: 75%;
   margin: auto;
+  animation: fadeIn 1000ms ease-in-out forwards;
+}
+
+#showcase .details {
+  margin: 1rem;
+}
+
+#showcase img.bio {
+  width: 80%;
+  border-radius: 50%;
 }
 
 #showcase h1 {
@@ -144,7 +154,9 @@ p {
 }
 
 #showcase .occupations {
-  color: rgb(185, 185, 185);
+  color: #b9b9b9;
+  font-size: 1rem;
+  margin: 1.4rem 0;
 }
 
 #showcase .btn-primary {
@@ -156,13 +168,23 @@ p {
   letter-spacing: 1px;
 }
 
-#showcase .btn-primary:hover {
-  background: transparent;
-  color: #fdfdfd;
-}
-
 #showcase .ctas .btn-primary:first-child {
   margin-right: 1rem;
+  background: var(--primary-color);
+  color: var(--primary-light);
+}
+
+#showcase .ctas .btn-primary:first-child:hover {
+  color: var(--primary-dark);
+}
+
+#showcase .ctas .btn-primary:first-child::after {
+  background: var(--primary-light);
+  width: 0%;
+}
+
+#showcase .ctas .btn-primary:first-child:hover::after {
+  width: 100%;
 }
 
 @media (max-width: 750px) {
