@@ -41,7 +41,7 @@ const Posts = () => {
   const posts = data.allMarkdownRemark.edges
   return (
     <div id="posts">
-      <div className="wrapper posts-wrapper">
+      <div className="posts-wrapper">
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (

@@ -6,9 +6,21 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.posts-wrapper h3 {
+  font-size: 2rem;
 }
 
 @media (max-width: 995px) {
+  .posts-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
   .posts-wrapper {
     grid-template-columns: 1fr;
   }

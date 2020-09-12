@@ -1,0 +1,31 @@
+.post-wrapper {
+  max-width: 1280px;
+  width: 65%;
+  margin: 0 auto;
+}
+
+.post-wrapper h1,
+.post-wrapper h2,
+.post-wrapper h3,
+.post-wrapper h4,
+.post-wrapper h5,
+.post-wrapper h6 {
+  padding-left: 0;
+  border: 0;
+  color: var(--primary-color);
+  opacity: 0.9;
+}
+
+.post-wrapper a {
+  text-decoration: underline;
+}
+
+blockquote {
+  border-color: var(--primary-color);
+}
+
+@media (max-width: 600px) {
+  .post-wrapper {
+    width: 90%;
+  }
+}

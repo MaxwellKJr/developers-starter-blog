@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby"
 import Image from "gatsby-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import "./blog-post.css"
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark
@@ -15,7 +16,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
-      <div className="container">
+      <div className="post-wrapper">
         <article>
           <Image
             src={post.frontmatter.featuredImage.publicURL}
@@ -24,7 +25,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             title={post.frontmatter.title}
           />
           <header>
-            <h1>{post.frontmatter.title}</h1>
+            <h3>{post.frontmatter.title}</h3>
             <p>{post.frontmatter.date}</p>
           </header>
           <section dangerouslySetInnerHTML={{ __html: post.html }} />

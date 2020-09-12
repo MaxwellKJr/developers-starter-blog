@@ -94,7 +94,7 @@ h3,
 h4,
 h5,
 h6 {
-  padding-left: 3rem;
+  padding-left: 2rem;
   border-left: 3px solid var(--primary-color);
 }
 
@@ -118,60 +118,42 @@ p {
 }
 
 #showcase {
-  background: url("../../img/showcase.jpg") no-repeat center center/cover;
-  background-attachment: fixed;
-  height: 100vh;
-  width: 100%;
-  position: relative;
-  z-index: 1;
   display: flex;
-  color: #fff;
-  justify-content: flex-end;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-}
-
-#showcase::after {
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
   width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.6);
-  z-index: -1;
+  height: 100vh;
 }
 
-#showcase .showcase-details {
-  text-align: right;
-  animation: fadeIn 600ms ease-in-out forwards;
-  opacity: 0;
+#showcase .wrapper {
+  width: 75%;
+  margin: auto;
 }
 
 #showcase h1 {
-  font-size: 4rem;
+  font-size: 3.6rem;
   font-weight: bold;
   padding-left: 0;
   border-left: none;
 }
 
 #showcase p {
-  margin: 0.5rem 0;
+  margin: 1rem 0;
   opacity: 0.9;
 }
 
+#showcase .occupations {
+  color: rgb(185, 185, 185);
+}
+
 #showcase .btn-primary {
-  display: inline-flex;
-  background: #fdfdfd;
-  color: #333;
-  padding: 1.5rem 3rem;
+  width: 150px;
   margin-top: 1rem;
-  justify-content: center;
-  align-items: center;
   transition: all 380ms ease-in-out;
-  font-size: 1rem;
-  font-weight: bold;
-  box-shadow: 0;
-  border: 2px solid #fdfdfd;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
 }
 
 #showcase .btn-primary:hover {
@@ -179,15 +161,24 @@ p {
   color: #fdfdfd;
 }
 
+#showcase .ctas .btn-primary:first-child {
+  margin-right: 1rem;
+}
+
 @media (max-width: 750px) {
+  #showcase .wrapper {
+    width: 90%;
+    margin: auto;
+  }
+
   #showcase h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 }
 
 @media (max-width: 600px) {
-  #showcase h1 {
-    font-size: 3rem;
+  #showcase {
+    padding-bottom: 4rem;
   }
 }
 
