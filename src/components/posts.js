@@ -42,6 +42,7 @@ const Posts = () => {
   return (
     <div id="posts">
       <div className="posts-wrapper">
+        <h2 className="center">Posts</h2>
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (

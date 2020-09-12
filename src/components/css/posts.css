@@ -1,5 +1,5 @@
 #posts {
-  padding: 5rem 0;
+  padding-bottom: 5rem;
 }
 
 .posts-wrapper {
@@ -10,6 +10,11 @@
   margin: 0 auto;
 }
 
+.posts-wrapper h2 {
+  border: 0;
+  padding-left: 0;
+}
+
 .posts-wrapper h3 {
   font-size: 2rem;
 }
@@ -17,6 +22,12 @@
 @media (max-width: 995px) {
   .posts-wrapper {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 995px) {
+  .posts-wrapper {
+    width: 90%;
   }
 }
 
