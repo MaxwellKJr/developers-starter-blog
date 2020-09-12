@@ -193,8 +193,16 @@ p {
     margin: auto;
   }
 
+  #showcase .details {
+    margin: 0;
+  }
+
   #showcase h1 {
     font-size: 3rem;
+  }
+
+  .row .col {
+    margin: 0;
   }
 }
 
