@@ -5,9 +5,18 @@
 .posts-wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
-  width: 70%;
-  margin: 0 auto;
+  gap: 2rem;
+  width: 75%;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.posts-wrapper .post {
+  transition: all 500ms ease-in-out;
+}
+
+.posts-wrapper .post:hover {
+  transform: scale(1.01);
 }
 
 .posts-wrapper h2 {
@@ -25,9 +34,9 @@
   }
 }
 
-@media (max-width: 995px) {
+@media (max-width: 750px) {
   .posts-wrapper {
-    width: 90%;
+    width: 80%;
   }
 }
 

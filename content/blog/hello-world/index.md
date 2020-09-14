@@ -1,7 +1,7 @@
 ---
 title: Hello World
 date: "2015-05-01T22:12:03.284Z"
-description: "Hello World"
+description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae architecto culpa perferendis. Ea in necessitatibus minus corporis dolorem, delectus beatae."
 featuredImage: "./salty_egg.jpg"
 ---
 

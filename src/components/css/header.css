@@ -51,6 +51,7 @@
 .main-nav .social-links a {
   color: Var(--primary-color);
   transition: all 400ms ease-in-out;
+  font-size: 1.4rem;
 }
 
 .main-nav .social-links a:hover {

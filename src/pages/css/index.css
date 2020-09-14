@@ -104,6 +104,11 @@ p {
   margin: 1.1rem 0;
 }
 
+.highlight {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
 /* ANIMATIONS */
 @keyframes fadeIn {
   from {

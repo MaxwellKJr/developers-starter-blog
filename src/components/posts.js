@@ -41,12 +41,12 @@ const Posts = () => {
   const posts = data.allMarkdownRemark.edges
   return (
     <div id="posts">
+      <h2 className="center">Posts</h2>
       <div className="posts-wrapper">
-        <h2 className="center">Posts</h2>
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
-            <article key={node.fields.slug}>
+            <div className="post" key={node.fields.slug}>
               <Link to={node.fields.slug}>
                 <Img
                   src={node.frontmatter.featuredImage}
@@ -61,7 +61,6 @@ const Posts = () => {
                   {title}
                 </Link>
               </h3>
-              <small>{node.frontmatter.date}</small>
               <section>
                 <p
                   dangerouslySetInnerHTML={{
@@ -69,7 +68,10 @@ const Posts = () => {
                   }}
                 />
               </section>
-            </article>
+              <small>{node.frontmatter.date}</small>
+              <br />
+              <Link to={node.fields.slug}>Read More</Link>
+            </div>
           )
         })}
       </div>

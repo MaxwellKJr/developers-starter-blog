@@ -70,27 +70,47 @@ const Header = () => {
         </ul>
         <ul className="social-links">
           <li>
-            <Link to="https://twitter.com/maxwellkjr" target="_blank">
+            <Link
+              to="https://twitter.com/maxwellkjr"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FontAwesomeIcon icon={faFacebook} />
             </Link>
           </li>
           <li>
-            <Link to="https://twitter.com/maxwellkjr" target="_blank">
+            <Link
+              to="https://twitter.com/maxwellkjr"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FontAwesomeIcon icon={faTwitter} />
             </Link>
           </li>
           <li>
-            <Link to="https://twitter.com/maxwellkjr" target="_blank">
+            <Link
+              to="https://instagram.com/_maxwellkjr"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FontAwesomeIcon icon={faInstagram} />
             </Link>
           </li>
           <li>
-            <Link to="https://twitter.com/maxwellkjr" target="_blank">
+            <Link
+              to="https://github.com/MaxwellKJr"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FontAwesomeIcon icon={faGithub} />
             </Link>
           </li>
           <li>
-            <Link to="https://twitter.com/maxwellkjr" target="_blank">
+            <Link
+              to="https://wa.me/265992800255"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FontAwesomeIcon icon={faWhatsapp} />
             </Link>
           </li>
