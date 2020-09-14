@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { Link, graphql } from "gatsby"
 import BioPic from "../img/showcase.jpg"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -10,7 +10,7 @@ const About = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="About" />
-      <section id="showcase">
+      <section id="showcase" className="showcase-about">
         <div className="wrapper">
           <div className="showcase-details">
             <div className="row">
@@ -30,8 +30,8 @@ const About = ({ data, location }) => {
                 <div className="about">
                   <h3>About Me</h3>
                   <p>
-                    Hi, my name is Maxwell Kapezi, Jr. and I am Full Stack Web
-                    Developer currently focusing on{" "}
+                    Hi, my name is Maxwell Kapezi, Jr. I am a Web Developer
+                    currently focusing on{" "}
                     <Link
                       to="https://reactjs.org"
                       target="_blank"
@@ -46,18 +46,24 @@ const About = ({ data, location }) => {
                       rel="noopener noreferrer"
                     >
                       Django
-                    </Link>
+                    </Link>{" "}
+                    frameworks. I am also a 2nd year Bachelor of Education
+                    (BEd), Computer Science student.
+                  </p>
+                  <p>
+                    Apart from coding I also enjoy writing short stories, poetry
+                    &amp; playing video games. I mean why not?
                   </p>
 
                   <p>
-                    I started programming in 2017 because I wanted to make my
-                    own video game (yes I wanted to make video games) but that
-                    dream died quick.
+                    I started learning how to code in 2017 because I wanted to
+                    make my own video game (yes I wanted to make video games)
+                    but that dream died quick. For the whole story read my post{" "}
+                    <Link to="/hello-world">Hello World</Link>
                   </p>
+
                   <p>
-                    Fast forward to 2018 I then got into web development and I
-                    have never stopped learning ever since. My journey has been
-                    slow with a lot of ups and downs hence{" "}
+                    My journey has been slow with a lot of ups and downs hence{" "}
                     <span className="highlight">
                       <em>The Struggling Programmer</em>
                     </span>

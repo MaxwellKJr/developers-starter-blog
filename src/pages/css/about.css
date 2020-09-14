@@ -1,7 +1,42 @@
+.showcase-about .details {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
 .image {
   text-align: center;
+  margin-top: 5rem;
 }
 
 .image img {
-  width: 300px;
+  width: 80%;
+  border-radius: 50%;
+}
+
+@media (max-width: 995px) {
+  .showcase-about {
+    height: auto !important;
+    padding-bottom: 10vh;
+  }
+
+  .showcase-about .details {
+    height: auto;
+  }
+
+  .image img {
+    width: 60%;
+  }
+}
+
+@media (max-width: 750px) {
+  .showcase-about {
+    margin: 0 0 10vh 0;
+  }
+
+  .showcase-about .details {
+    height: auto;
+  }
 }

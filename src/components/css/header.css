@@ -80,9 +80,7 @@
   .main-nav .social-links a {
     padding: 0 8px;
   }
-}
 
-@media (max-width: 860px) {
   .show-on-med {
     display: inline-block;
     text-align: center;
@@ -127,6 +125,9 @@
   .main-nav .logo {
     display: none;
   }
+}
+
+@media (max-width: 860px) {
 }
 
 @media (max-width: 560px) {

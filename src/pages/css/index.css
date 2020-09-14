@@ -5,6 +5,7 @@
   --primary-cl: #ff00779d;
   --primary-dark: #131313;
   --primary-light: #ebebeb;
+  --secondary-light: #d6d6d6;
   --box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.786);
 }
 
@@ -94,11 +95,11 @@ h3,
 h4,
 h5,
 h6 {
-  padding-left: 2rem;
-  border-left: 3px solid var(--primary-color);
+  color: var(--primary-light);
 }
 
 p {
+  color: var(--secondary-light);
   font-size: 1.1rem;
   line-height: 1.7;
   margin: 1.1rem 0;
@@ -139,11 +140,6 @@ p {
 
 #showcase .details {
   margin: 1rem;
-}
-
-#showcase img.bio {
-  width: 80%;
-  border-radius: 50%;
 }
 
 #showcase h1 {
