@@ -26,7 +26,7 @@ const Posts = () => {
               featuredImage {
                 publicURL
                 childImageSharp {
-                  fluid(maxWidth: 2000, maxHeight: 1000) {
+                  fluid(maxWidth: 2000, maxHeight: 1700) {
                     ...GatsbyImageSharpFluid
                   }
                 }
@@ -41,7 +41,7 @@ const Posts = () => {
   const posts = data.allMarkdownRemark.edges
   return (
     <div id="posts">
-      <h2 className="center">Posts</h2>
+      <h3 className="center">Posts</h3>
       <div className="posts-wrapper">
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
@@ -56,21 +56,27 @@ const Posts = () => {
                   title={title}
                 />
               </Link>
-              <h3>
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                  {title}
-                </Link>
-              </h3>
-              <section>
-                <p
-                  dangerouslySetInnerHTML={{
-                    __html: node.frontmatter.description || node.excerpt,
-                  }}
-                />
-              </section>
-              <small>{node.frontmatter.date}</small>
-              <br />
-              <Link to={node.fields.slug}>Read More</Link>
+              <div className="post-details">
+                <div className="details">
+                  <h3>
+                    <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                      {title}
+                    </Link>
+                  </h3>
+                  <div>
+                    <p
+                      dangerouslySetInnerHTML={{
+                        __html: node.frontmatter.description || node.excerpt,
+                      }}
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="tags actions">
+                <small>{node.frontmatter.date}</small>
+                <br />
+                <Link to={node.fields.slug}>Read More</Link>
+              </div>
             </div>
           )
         })}

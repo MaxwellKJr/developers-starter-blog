@@ -12,14 +12,6 @@
   margin: auto;
 }
 
-.posts-wrapper .post {
-  transition: all 500ms ease-in-out;
-}
-
-.posts-wrapper .post:hover {
-  transform: scale(1.01);
-}
-
 .posts-wrapper h2 {
   border: 0;
   padding-left: 0;
@@ -27,6 +19,32 @@
 
 .posts-wrapper h3 {
   font-size: 2rem;
+  margin-top: 0;
+}
+
+.posts-wrapper p {
+  font-size: 1rem;
+}
+
+.posts-wrapper .post {
+  transition: all 500ms ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: rgb(7, 7, 7);
+}
+
+.posts-wrapper .post:hover {
+  transform: scale(1.01);
+}
+
+.post-details .details {
+  padding: 1rem;
+}
+
+.actions {
+  background: #000;
+  padding: 1rem;
 }
 
 @media (max-width: 995px) {
