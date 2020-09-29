@@ -1,21 +1,10 @@
 ---
 title: Hello World
 date: "2015-05-01T22:12:03.284Z"
-description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae architecto culpa perferendis. Ea in necessitatibus minus corporis dolorem, delectus beatae."
-featuredImage: "./salty_egg.jpg"
+description: "This is a story of how video games made me make one of the best decisions I will ever make in my life. They showed me the way to greatness."
+featuredImage: "./hello-world.jpg"
 ---
 
-This is my first post on my new fake blog! How exciting!
+_"After the end of World War 2, the world was split into two. East and West. This marked the beginning of era called the Cold War."_ - Naked Snake (Voiced by David Hayter) in Metal Gear Solid 3: Snake Eater.
 
-I'm sure I'll write a lot more interesting things in the future.
-
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](https://en.wikipedia.org/wiki/Salted_duck_egg).
-
-> A salted duck egg is a Chinese preserved food product made by soaking duck
-> eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-> supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-> charcoal paste. The eggs may also be sold with the salted paste removed,
-> wrapped in plastic, and vacuum packed. From the salt curing process, the
-> salted duck eggs have a briny aroma, a gelatin-like egg white and a
-> firm-textured, round yolk that is bright orange-red in color.
+That's the opening line to one of my favourite video game series of all time, Metal Gear developed by **Kojima Productions** under the management of **Hideo Kojima**. Kojima is the reason I fell in love with video games and story telling but the latter is a story for another day.

@@ -41,7 +41,7 @@ const About = ({ data, location }) => {
                     </Link>{" "}
                     and{" "}
                     <Link
-                      to="https://django.org"
+                      to="https://djangoproject.com"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

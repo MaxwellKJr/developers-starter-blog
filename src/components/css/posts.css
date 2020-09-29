@@ -1,5 +1,6 @@
 #posts {
   padding-bottom: 5rem;
+  animation: fadeIn 1000ms ease-in-out forwards;
 }
 
 .posts-wrapper {
@@ -36,7 +37,7 @@
 
 @media (max-width: 750px) {
   .posts-wrapper {
-    width: 80%;
+    width: 90%;
   }
 }
 
