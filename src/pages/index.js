@@ -11,7 +11,7 @@ const BlogIndex = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="Home" />
-      <section id="showcase">
+      <section id="showcase" className="showcase">
         <div className="wrapper">
           <div className="showcase-details">
             <div className="row">

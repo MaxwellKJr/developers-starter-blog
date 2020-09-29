@@ -147,6 +147,7 @@ p {
   font-weight: bold;
   padding-left: 0;
   border-left: none;
+  margin-top: 0;
 }
 
 #showcase p {

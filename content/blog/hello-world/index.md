@@ -1,5 +1,5 @@
 ---
-title: Hello World
+title: Hello, World!
 date: "2015-05-01T22:12:03.284Z"
 description: "This is a story of how video games made me make one of the best decisions I will ever make in my life. They showed me the way to greatness."
 featuredImage: "./hello-world.jpg"

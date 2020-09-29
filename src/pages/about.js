@@ -28,10 +28,10 @@ const About = ({ data, location }) => {
 
               <div className="col s12 m12 l6">
                 <div className="about">
-                  <h3>About Me</h3>
+                  <h3>About me</h3>
                   <p>
-                    Hi, my name is Maxwell Kapezi, Jr. I am a Web Developer
-                    currently focusing on{" "}
+                    Hi, my name is Maxwell Kapezi, Jr. I am a Web Developer from
+                    the Warm Heart of Africa, Malawi🇲🇼, currently focusing on{" "}
                     <Link
                       to="https://reactjs.org"
                       target="_blank"
@@ -75,6 +75,33 @@ const About = ({ data, location }) => {
           </div>
         </div>
       </section>
+      {/* <section id="skills">
+        <div className="wrapper">
+          <div className="row">
+            <div className="col s12 m12 l6">
+              <div className="about">
+                <h3>Skills</h3>
+                <ul className="skill">
+                  <span className="skill-detail">
+                    Web Development Fundamentals
+                  </span>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                </ul>
+                <ul className="skill">
+                  <span className="skill-detail">Front-End Frameworks</span>
+                  <li>React</li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="col s12 m12 l6">
+              <div className="about"></div>
+            </div>
+          </div>
+        </div>
+      </section> */}
     </Layout>
   )
 }
