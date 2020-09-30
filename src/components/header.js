@@ -13,6 +13,7 @@ import {
   faFacebook,
   faGithub,
   faInstagram,
+  faLinkedin,
   faTwitter,
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons"
@@ -71,7 +72,7 @@ const Header = () => {
         <ul className="social-links">
           <li>
             <Link
-              to="https://twitter.com/maxwellkjr"
+              to="https://web.facebook.com/maxwelljr.kapezi/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -103,6 +104,15 @@ const Header = () => {
               rel="noopener noreferrer"
             >
               <FontAwesomeIcon icon={faGithub} />
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact_info%3BZtlTnqqYSwWD90TH%2B2IOEQ%3D%3D"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faLinkedin} />
             </Link>
           </li>
           <li>
