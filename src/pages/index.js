@@ -1,7 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import "materialize-css/dist/css/materialize.min.css"
-import Layout from "../components/layout"
+import Layout from "../layouts/index"
 import SEO from "../components/seo"
 import "./css/index.css"
 

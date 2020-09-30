@@ -1,7 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import BioPic from "../img/showcase.jpg"
-import Layout from "../components/layout"
+import Layout from "../layouts/index"
 import SEO from "../components/seo"
 import "./css/about.css"
 
@@ -31,7 +31,7 @@ const About = ({ data, location }) => {
                   <h3>About me</h3>
                   <p>
                     Hi, my name is Maxwell Kapezi, Jr. I am a Web Developer from
-                    the Warm Heart of Africa, Malawi🇲🇼, currently focusing on{" "}
+                    the Warm Heart of Africa, Malawi <span role="img">🇲🇼</span> , currently focusing on{" "}
                     <Link
                       to="https://reactjs.org"
                       target="_blank"
