@@ -3,7 +3,7 @@
   --primary-color: #ff0077;
   --primary-cd: #9e004a;
   --primary-cl: #ff00779d;
-  --primary-dark: #0a0a0a;
+  --primary-dark: #131313;
   --primary-light: #ebebeb;
   --secondary-light: #d6d6d6;
   --box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.786);
@@ -123,7 +123,8 @@ p {
   }
 }
 
-#showcase {
+#showcase,
+#about {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -132,7 +133,9 @@ p {
   height: 100vh;
 }
 
-#showcase .wrapper {
+#showcase .wrapper,
+#about .wrapper,
+#skills .wrapper {
   width: 75%;
   margin: auto;
   animation: fadeIn 1000ms ease-in-out forwards;
@@ -168,6 +171,11 @@ p {
   text-transform: uppercase;
   font-size: 0.9rem;
   letter-spacing: 1px;
+  color: var(--primary-dark);
+}
+
+#showcase .btn-primary:hover {
+  color: var(--primary-light);
 }
 
 #showcase .ctas .btn-primary:first-child {
@@ -223,5 +231,15 @@ p {
 @media (max-height: 600px) {
   #showcase h1 {
     margin-top: 2rem;
+  }
+}
+@media (max-width: 400px) {
+  #showcase h1 {
+    font-size: 2.7rem;
+  }
+
+  #showcase .btn-primary {
+    width: 120px;
+    font-size: 0.8rem;
   }
 }

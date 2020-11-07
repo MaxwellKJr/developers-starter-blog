@@ -31,7 +31,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           <section dangerouslySetInnerHTML={{ __html: post.html }} />
           <hr />
         </article>
-        <nav>
+        <nav className="blog-nav">
           <ul
             style={{
               display: `flex`,

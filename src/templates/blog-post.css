@@ -26,6 +26,11 @@ blockquote {
   border-color: var(--primary-color);
 }
 
+.blog-nav {
+  background: transparent;
+  box-shadow: none;
+}
+
 @media (max-width: 990px) {
   .post-wrapper {
     width: 75%;
@@ -34,6 +39,6 @@ blockquote {
 
 @media (max-width: 600px) {
   .post-wrapper {
-    width: 90%;
+    width: calc(100% - 2rem);
   }
 }

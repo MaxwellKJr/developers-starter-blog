@@ -4,13 +4,20 @@ import BioPic from "../img/showcase.jpg"
 import Layout from "../layouts/index"
 import SEO from "../components/seo"
 import "./css/about.css"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import {
+  faCss3Alt,
+  faHtml5,
+  faJs,
+  faReact,
+} from "@fortawesome/free-brands-svg-icons"
 
 const About = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="About" />
-      <section id="showcase" className="showcase-about">
+      <section id="about" className="showcase-about">
         <div className="wrapper">
           <div className="showcase-details">
             <div className="row">
@@ -30,8 +37,9 @@ const About = ({ data, location }) => {
                 <div className="about">
                   <h3>About me</h3>
                   <p>
-                    Hi, my name is Maxwell Kapezi, Jr. I am a Web Developer from
-                    the Warm Heart of Africa, Malawi <span role="img">🇲🇼</span> , currently focusing on{" "}
+                    My name is Maxwell Kapezi, Jr. I am a Web Developer from the
+                    Warm Heart of Africa, Malawi <span role="img">🇲🇼</span> ,
+                    currently focusing on{" "}
                     <Link
                       to="https://reactjs.org"
                       target="_blank"
@@ -75,33 +83,6 @@ const About = ({ data, location }) => {
           </div>
         </div>
       </section>
-      {/* <section id="skills">
-        <div className="wrapper">
-          <div className="row">
-            <div className="col s12 m12 l6">
-              <div className="about">
-                <h3>Skills</h3>
-                <ul className="skill">
-                  <span className="skill-detail">
-                    Web Development Fundamentals
-                  </span>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>JavaScript</li>
-                </ul>
-                <ul className="skill">
-                  <span className="skill-detail">Front-End Frameworks</span>
-                  <li>React</li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="col s12 m12 l6">
-              <div className="about"></div>
-            </div>
-          </div>
-        </div>
-      </section> */}
     </Layout>
   )
 }
