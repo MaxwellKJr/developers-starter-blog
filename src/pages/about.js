@@ -4,13 +4,6 @@ import BioPic from "../img/showcase.jpg"
 import Layout from "../layouts/index"
 import SEO from "../components/seo"
 import "./css/about.css"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import {
-  faCss3Alt,
-  faHtml5,
-  faJs,
-  faReact,
-} from "@fortawesome/free-brands-svg-icons"
 
 const About = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -45,7 +38,7 @@ const About = ({ data, location }) => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      ReactJS
+                      React.js
                     </Link>{" "}
                     and{" "}
                     <Link
@@ -55,8 +48,8 @@ const About = ({ data, location }) => {
                     >
                       Django
                     </Link>{" "}
-                    frameworks. I am also a 2nd year Bachelor of Education
-                    (BEd), Computer Science student.
+                    frameworks. I am also a 2nd year Bachelor of Education (BEd)
+                    - Computer Science student.
                   </p>
                   <p>
                     Apart from coding I also enjoy writing short stories, poetry
