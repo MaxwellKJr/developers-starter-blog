@@ -1,0 +1,16 @@
+.card-dark {
+  border: 1px solid var(--primary-cl);
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  margin-bottom: 1rem;
+}
+
+.card-dark .skill-icon {
+  font-size: 1.4rem;
+  margin: 1rem;
+}
+
+.card-dark .skill {
+  font-size: 1.1rem;
+}

@@ -28,7 +28,12 @@ const About = ({ data, location }) => {
 
               <div className="col s12 m12 l6">
                 <div className="about">
-                  <h3>About me</h3>
+                  <h4>
+                    About me{" / "}
+                    <span className>
+                      <Link to="/skills">My Skills</Link>{" "}
+                    </span>
+                  </h4>
                   <p>
                     My name is Maxwell Kapezi, Jr. I am a Web Developer from the
                     Warm Heart of Africa, Malawi <span role="img">🇲🇼</span> ,
