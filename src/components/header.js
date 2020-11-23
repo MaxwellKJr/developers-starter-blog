@@ -34,38 +34,38 @@ const Header = () => {
   return (
     <nav className="main-nav">
       <div className="wrapper">
-        <Link to="/" className="logo">
+        <Link to="/" className="logo" title="The Malawian🇲🇼 Developer">
           {title}
         </Link>
         <ul className="nav-links">
           <li className="nav-link">
-            <Link to="/" activeClassName="active">
+            <Link to="/" activeClassName="active" title="Home">
               <FontAwesomeIcon icon={faHome} className="show-on-med" />
-              <span>home</span>
+              <span>Home</span>
             </Link>
           </li>
           <li className="nav-link">
-            <Link to="/about" activeClassName="active">
+            <Link to="/about" activeClassName="active" title="Know me">
               <FontAwesomeIcon icon={faUserAlt} className="show-on-med" />
-              <span>about</span>
+              <span>About</span>
             </Link>
           </li>
           <li className="nav-link">
-            <Link to="/projects" activeClassName="active">
+            <Link to="/projects" activeClassName="active" title="See my work">
               <FontAwesomeIcon icon={faLaptopCode} className="show-on-med" />
-              <span>projects</span>
+              <span>Projects</span>
             </Link>
           </li>
           <li className="nav-link">
-            <Link to="/blog" activeClassName="active">
+            <Link to="/blog" activeClassName="active" title="Read something">
               <FontAwesomeIcon icon={faPen} className="show-on-med" />
-              <span>blog</span>
+              <span>Blog</span>
             </Link>
           </li>
           <li className="nav-link">
-            <Link to="/contact" activeClassName="active">
+            <Link to="/contact" activeClassName="active" title="Reach me">
               <FontAwesomeIcon icon={faEnvelope} className="show-on-med" />
-              <span>contact</span>
+              <span>Contact</span>
             </Link>
           </li>
         </ul>
@@ -75,6 +75,7 @@ const Header = () => {
               to="https://web.facebook.com/maxwelljr.kapezi/"
               target="_blank"
               rel="noopener noreferrer"
+              title="Facebook"
             >
               <FontAwesomeIcon icon={faFacebook} />
             </Link>
@@ -84,6 +85,7 @@ const Header = () => {
               to="https://twitter.com/maxwellkjr"
               target="_blank"
               rel="noopener noreferrer"
+              title="Twitter"
             >
               <FontAwesomeIcon icon={faTwitter} />
             </Link>
@@ -93,6 +95,7 @@ const Header = () => {
               to="https://instagram.com/_maxwellkjr"
               target="_blank"
               rel="noopener noreferrer"
+              title="Instagram"
             >
               <FontAwesomeIcon icon={faInstagram} />
             </Link>
@@ -102,6 +105,7 @@ const Header = () => {
               to="https://github.com/MaxwellKJr"
               target="_blank"
               rel="noopener noreferrer"
+              title="GitHub"
             >
               <FontAwesomeIcon icon={faGithub} />
             </Link>
@@ -111,6 +115,7 @@ const Header = () => {
               to="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact_info%3BZtlTnqqYSwWD90TH%2B2IOEQ%3D%3D"
               target="_blank"
               rel="noopener noreferrer"
+              title="LinkedIn"
             >
               <FontAwesomeIcon icon={faLinkedin} />
             </Link>
@@ -120,6 +125,7 @@ const Header = () => {
               to="https://wa.me/265992800255"
               target="_blank"
               rel="noopener noreferrer"
+              title="WhatsApp"
             >
               <FontAwesomeIcon icon={faWhatsapp} />
             </Link>

@@ -1,5 +1,5 @@
 .card-dark {
-  border: 1px solid var(--primary-cl);
+  border: 1px solid #ff006675;
   display: flex;
   align-items: center;
   height: 3rem;
