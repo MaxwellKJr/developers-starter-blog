@@ -71,64 +71,64 @@ const Header = () => {
         </ul>
         <ul className="social-links">
           <li>
-            <Link
+            <a
               to="https://web.facebook.com/maxwelljr.kapezi/"
               target="_blank"
               rel="noopener noreferrer"
               title="Facebook"
             >
               <FontAwesomeIcon icon={faFacebook} />
-            </Link>
+            </a>
           </li>
           <li>
-            <Link
+            <a
               to="https://twitter.com/maxwellkjr"
               target="_blank"
               rel="noopener noreferrer"
               title="Twitter"
             >
               <FontAwesomeIcon icon={faTwitter} />
-            </Link>
+            </a>
           </li>
           <li>
-            <Link
+            <a
               to="https://instagram.com/_maxwellkjr"
               target="_blank"
               rel="noopener noreferrer"
               title="Instagram"
             >
               <FontAwesomeIcon icon={faInstagram} />
-            </Link>
+            </a>
           </li>
           <li>
-            <Link
+            <a
               to="https://github.com/MaxwellKJr"
               target="_blank"
               rel="noopener noreferrer"
               title="GitHub"
             >
               <FontAwesomeIcon icon={faGithub} />
-            </Link>
+            </a>
           </li>
           <li>
-            <Link
+            <a
               to="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact_info%3BZtlTnqqYSwWD90TH%2B2IOEQ%3D%3D"
               target="_blank"
               rel="noopener noreferrer"
-              title="LinkedIn"
+              title="aedIn"
             >
               <FontAwesomeIcon icon={faLinkedin} />
-            </Link>
+            </a>
           </li>
           <li>
-            <Link
+            <a
               to="https://wa.me/265992800255"
               target="_blank"
               rel="noopener noreferrer"
               title="WhatsApp"
             >
               <FontAwesomeIcon icon={faWhatsapp} />
-            </Link>
+            </a>
           </li>
         </ul>
       </div>

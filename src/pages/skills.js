@@ -1,6 +1,5 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-import BioPic from "../img/showcase.jpg"
 import Layout from "../layouts/index"
 import SEO from "../components/seo"
 import "./css/about.css"
@@ -27,30 +26,13 @@ const Skills = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="Skills" />
-      <section id="about" className="showcase-about">
+      <section id="skills" className="showcase-about">
         <div className="wrapper">
           <div className="showcase-details">
             <div className="row">
               <div className="col s12 m12 l6">
-                <div className="details">
-                  <div className="image">
-                    <img
-                      src={BioPic}
-                      className="bio"
-                      alt="Maxwell Kapezi, jr"
-                    />
-                  </div>
-                </div>
-              </div>
-
-              <div className="col s12 m12 l6">
                 <div className="about">
-                  <h4>
-                    My Skills{" / "}
-                    <span className>
-                      <Link to="/about">About Me</Link>{" "}
-                    </span>
-                  </h4>
+                  <h4>My Skills</h4>
                   <p>Languages/Technologies I am comfortable with</p>
                   <div className="row">
                     <div className="col s6">
@@ -135,7 +117,7 @@ const Skills = ({ data, location }) => {
                       </div>
                     </div>
                   </div>
-                  <p>Languages I at least know the basics</p>
+                  <p>Languages I only know the basics</p>
                   <div className="row">
                     <div className="col s6">
                       <div className="card-dark">
@@ -157,6 +139,9 @@ const Skills = ({ data, location }) => {
                     </div>
                   </div>
                 </div>
+                <Link to="/about" className="btn-primary">
+                  ← About me
+                </Link>
               </div>
             </div>
           </div>
