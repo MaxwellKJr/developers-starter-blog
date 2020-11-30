@@ -72,7 +72,7 @@ const Header = () => {
         <ul className="social-links">
           <li>
             <a
-              to="https://web.facebook.com/maxwelljr.kapezi/"
+              href="https://web.facebook.com/maxwelljr.kapezi/"
               target="_blank"
               rel="noopener noreferrer"
               title="Facebook"
@@ -82,7 +82,7 @@ const Header = () => {
           </li>
           <li>
             <a
-              to="https://twitter.com/maxwellkjr"
+              href="https://twitter.com/maxwellkjr"
               target="_blank"
               rel="noopener noreferrer"
               title="Twitter"
@@ -92,7 +92,7 @@ const Header = () => {
           </li>
           <li>
             <a
-              to="https://instagram.com/_maxwellkjr"
+              href="https://instagram.com/_maxwellkjr"
               target="_blank"
               rel="noopener noreferrer"
               title="Instagram"
@@ -102,7 +102,7 @@ const Header = () => {
           </li>
           <li>
             <a
-              to="https://github.com/MaxwellKJr"
+              href="https://github.com/MaxwellKJr"
               target="_blank"
               rel="noopener noreferrer"
               title="GitHub"
@@ -112,7 +112,7 @@ const Header = () => {
           </li>
           <li>
             <a
-              to="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact_info%3BZtlTnqqYSwWD90TH%2B2IOEQ%3D%3D"
+              href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact_info%3BZtlTnqqYSwWD90TH%2B2IOEQ%3D%3D"
               target="_blank"
               rel="noopener noreferrer"
               title="aedIn"
@@ -122,7 +122,7 @@ const Header = () => {
           </li>
           <li>
             <a
-              to="https://wa.me/265992800255"
+              href="https://wa.me/265992800255"
               target="_blank"
               rel="noopener noreferrer"
               title="WhatsApp"

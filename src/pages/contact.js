@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 import Layout from "../layouts/index"
 import SEO from "../components/seo"
 import "./css/contact.css"
@@ -44,7 +44,7 @@ const Contact = ({ data, location }) => {
                   <ul className="social-links">
                     <li>
                       <a
-                        to="https://web.facebook.com/maxwelljr.kapezi/"
+                        href="https://web.facebook.com/maxwelljr.kapezi/"
                         target="_blank"
                         rel="noopener noreferrer"
                         title="Facebook"
@@ -54,7 +54,7 @@ const Contact = ({ data, location }) => {
                     </li>
                     <li>
                       <a
-                        to="https://twitter.com/maxwellkjr"
+                        href="https://twitter.com/maxwellkjr"
                         target="_blank"
                         rel="noopener noreferrer"
                         title="Twitter"
@@ -64,7 +64,7 @@ const Contact = ({ data, location }) => {
                     </li>
                     <li>
                       <a
-                        to="https://instagram.com/_maxwellkjr"
+                        href="https://instagram.com/_maxwellkjr"
                         target="_blank"
                         rel="noopener noreferrer"
                         title="Instagram"
@@ -74,7 +74,7 @@ const Contact = ({ data, location }) => {
                     </li>
                     <li>
                       <a
-                        to="https://github.com/MaxwellKJr"
+                        href="https://github.com/MaxwellKJr"
                         target="_blank"
                         rel="noopener noreferrer"
                         title="GitHub"
@@ -84,17 +84,17 @@ const Contact = ({ data, location }) => {
                     </li>
                     <li>
                       <a
-                        to="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact_info%3BZtlTnqqYSwWD90TH%2B2IOEQ%3D%3D"
+                        href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact_info%3BZtlTnqqYSwWD90TH%2B2IOEQ%3D%3D"
                         target="_blank"
                         rel="noopener noreferrer"
-                        title="aedIn"
+                        title="LinkedIn"
                       >
                         <FontAwesomeIcon icon={faLinkedin} />
                       </a>
                     </li>
                     <li>
                       <a
-                        to="https://wa.me/265992800255"
+                        href="https://wa.me/265992800255"
                         target="_blank"
                         rel="noopener noreferrer"
                         title="WhatsApp"

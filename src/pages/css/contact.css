@@ -34,6 +34,14 @@
   font-size: 2rem;
 }
 
+#contact .social-links a {
+  transition: all 400ms ease-in-out;
+}
+
+#contact .social-links a:hover {
+  transform: translateX(200px);
+}
+
 @media (max-width: 520px) {
   #contact .btn-primary {
     width: 100%;
