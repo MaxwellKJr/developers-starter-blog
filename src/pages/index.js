@@ -15,7 +15,7 @@ const BlogIndex = ({ data, location }) => {
         <div className="wrapper">
           <div className="showcase-details">
             <div className="row">
-              <div className="col s12 m12 l6">
+              <div className="col s12 m12 l8">
                 <div className="details">
                   <h1>The Struggling Programmer</h1>
                   <p className="occupations">

@@ -168,10 +168,13 @@ p {
   margin-top: 0;
   transition: all 600ms ease-in-out;
   cursor: default !important;
+  transform-origin: 0;
 }
 
 #showcase h1:hover {
-  transform: translateY(5px);
+  transform: translateY(-5px) scaleX(0.9);
+  color: var(--primary-color);
+  letter-spacing: 6px;
 }
 
 #showcase p {
@@ -243,6 +246,12 @@ p {
   }
 }
 
+@media (max-width: 550px) {
+  #showcase h1:hover {
+    letter-spacing: 6px;
+  }
+}
+
 @media (max-width: 320px) {
   #showcase h1 {
     font-size: 2.6rem;
@@ -254,6 +263,7 @@ p {
     margin-top: 2rem;
   }
 }
+
 @media (max-width: 400px) {
   #showcase h1 {
     font-size: 2.7rem;

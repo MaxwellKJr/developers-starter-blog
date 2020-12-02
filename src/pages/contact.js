@@ -41,6 +41,7 @@ const Contact = ({ data, location }) => {
                       Submit <i className="fas fa-envelope icon"></i>
                     </button>
                   </form>
+                  <h5>Reach Me</h5>
                   <ul className="social-links">
                     <li>
                       <a

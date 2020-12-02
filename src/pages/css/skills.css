@@ -1,3 +1,7 @@
+#skills .showcase-about {
+  padding-bottom: 10vh !important;
+}
+
 .card-dark {
   border: 1px solid #ff006675;
   display: inline-flex;

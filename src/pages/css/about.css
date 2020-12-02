@@ -18,7 +18,9 @@
 }
 
 @media (max-width: 995px) {
-  #about {
+  #about,
+  #skills,
+  #contact {
     height: auto !important;
     padding-bottom: 5rem !important;
   }

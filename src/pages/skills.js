@@ -26,7 +26,7 @@ const Skills = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="Skills" />
-      <section id="skills" className="showcase-about">
+      <section id="about" className="showcase-about">
         <div className="wrapper">
           <div className="showcase-details">
             <div className="row">
