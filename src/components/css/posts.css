@@ -12,18 +12,13 @@
   margin: auto;
 }
 
-.posts-wrapper h2 {
-  border: 0;
-  padding-left: 0;
-}
-
 .posts-wrapper h3 {
   font-size: 1.7rem;
   margin-top: 0;
 }
 
 .posts-wrapper p {
-  font-size: 1rem;
+  font-size: 0.96rem;
 }
 
 .posts-wrapper .post {
