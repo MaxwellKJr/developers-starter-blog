@@ -8,6 +8,7 @@ const Projects = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="Projects" />
+      <h5 className="center-align">Nothing on this page. Yet</h5>
     </Layout>
   )
 }

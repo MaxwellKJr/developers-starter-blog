@@ -1,5 +1,5 @@
 #contact h4 {
-  margin-top: 2rem;
+  margin-top: 5rem;
 }
 
 #contact form {
@@ -7,7 +7,8 @@
 }
 
 #contact form input {
-  color: #ff0077;
+  color: var(--primary-color);
+  border-radius: 10px 10px 0px 0px;
   border-bottom: 1px solid var(--primary-light);
   overflow: hidden;
   padding: 0 0 0 0.5rem;
@@ -48,7 +49,10 @@
 }
 
 #contact .social-links a:hover {
-  transform: translateX(200px);
+  color: #e9e9e9;
+  transform: translateY(-5px);
+  background: transparent;
+  text-decoration: none;
 }
 
 @media (max-width: 520px) {

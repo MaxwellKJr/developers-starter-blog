@@ -25,17 +25,23 @@ const Contact = ({ data, location }) => {
               <div className="col s12 m8">
                 <div className="contact-form">
                   <h4>Contact Me</h4>
-                  <form method="POST" name="inquieries" netlify>
+                  <form method="POST" name="inquiries" netlify>
                     <input
                       type="text"
                       name="username"
-                      placeholder="Your name (Optional)"
+                      placeholder="Enter name (Optional)"
                     />
-                    <input type="email" name="email" placeholder="Your Email" />
+                    <input
+                      type="email"
+                      name="email"
+                      placeholder="Enter your email"
+                      required
+                    />
                     <input
                       type="text"
-                      name="inquiery"
+                      name="inquiry"
                       placeholder="Inquiries/Access our service(s)"
+                      required
                     />
                     <button className="btn-primary" name="submit">
                       Submit <i className="fas fa-envelope icon"></i>
