@@ -12,11 +12,6 @@ const Layout = ({ children, location }) => {
           <Transition location={location}>{children}</Transition>
         </main>
       </div>
-      {/* <footer>
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
-      </footer> */}
     </div>
   )
 }

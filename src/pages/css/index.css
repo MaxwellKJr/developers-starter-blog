@@ -2,6 +2,7 @@
 :root {
   --primary-color: #ff0077;
   --primary-cd: #9e004a;
+  --primary-cd: rgb(158, 0, 74);
   --primary-cl: #ff00779d;
   --primary-dark: #131313;
   --primary-light: #ebebeb;
@@ -21,6 +22,10 @@
 
 * a:hover {
   text-decoration: underline;
+}
+
+* img {
+  box-shadow: none !important;
 }
 
 button {
@@ -261,6 +266,7 @@ p {
 @media (max-height: 600px) {
   #showcase h1 {
     margin-top: 2rem;
+    font-size: 2.3rem;
   }
 }
 
