@@ -12,6 +12,10 @@
   margin: auto;
 }
 
+.posts-wrapper .post-img {
+  width: 100%;
+}
+
 .posts-wrapper h3 {
   font-size: 1.7rem;
   margin-top: 0;

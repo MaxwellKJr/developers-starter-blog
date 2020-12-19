@@ -26,7 +26,7 @@ const Posts = () => {
               featuredImage {
                 publicURL
                 childImageSharp {
-                  fluid(maxWidth: 2000, maxHeight: 1700) {
+                  fluid(maxWidth: 3000, maxHeight: 1800) {
                     ...GatsbyImageSharpFluid
                   }
                 }
