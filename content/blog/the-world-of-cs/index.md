@@ -1,8 +1,8 @@
 ---
-title: The World Of CS
+title: A World of Paths & Languages
 date: "2020-12-20T22:12:03.284Z"
-description: "The tech world has a lot to offer and it can be overwhelming just to know where to start from. I will explain some technologies and languages that will put you in the right path."
-featuredImage: "./htmlCssJS.jpg"
+description: "The tech world has a lot to offer and it can be overwhelming just to know where to start from. In this post I explain the different road maps you can take as well as their relevant languages."
+featuredImage: "./programming-languages.png"
 ---
 
 #### Where To Start From
