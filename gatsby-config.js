@@ -7,6 +7,7 @@ module.exports = {
     },
     description: `MJ Codes is a platform to showcase my web development journey and share the few things I know, from web development to creative writing. One line of code at a time.`,
     siteUrl: `https://mjcodes.netlify.app/`,
+    siteThumbnail: "https://www.udrop.com/file/9aqZ/mjcodes.png",
     social: {
       twitter: `@maxwellKJr`,
     },

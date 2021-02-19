@@ -18,6 +18,8 @@ const SEO = ({ description, lang, meta, title }) => {
           siteMetadata {
             title
             description
+            siteUrl
+            siteThumbnail
             social {
               twitter
             }
@@ -44,6 +46,14 @@ const SEO = ({ description, lang, meta, title }) => {
         {
           property: `og:title`,
           content: title,
+        },
+        {
+          property: `og:image`,
+          content: siteThumbnail,
+        },
+        {
+          property: `og:url`,
+          content: siteUrl,
         },
         {
           property: `og:description`,
