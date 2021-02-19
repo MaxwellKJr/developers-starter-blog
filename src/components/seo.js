@@ -30,8 +30,8 @@ const SEO = ({ description, lang, meta, title, siteUrl, siteThumbnail }) => {
   )
 
   const metaDescription = description || site.siteMetadata.description
-  const thumbnail = siteThumbnail
-  const url = siteUrl
+  const thumbnail = siteThumbnail || site.siteMetadata.siteThumbnail
+  const url = siteUrl || site.siteMetadata.siteUrl
 
   return (
     <Helmet
