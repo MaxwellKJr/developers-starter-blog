@@ -12,6 +12,7 @@ import {
   faTwitter,
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons"
+import { faPaperPlane } from "@fortawesome/free-solid-svg-icons"
 
 const Contact = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -22,10 +23,10 @@ const Contact = ({ data, location }) => {
         <div className="wrapper">
           <div className="contact">
             <div className="row">
-              <div className="col s12 m8">
+              <div className="col s12 m10">
                 <div className="contact-form">
                   <h4>Contact Me</h4>
-                  <form method="POST" name="inquiries" netlify>
+                  <form method="POST" name="inquiries" data-netlify="true">
                     <input
                       type="text"
                       name="username"
@@ -40,15 +41,19 @@ const Contact = ({ data, location }) => {
                     <input
                       type="text"
                       name="inquiry"
-                      placeholder="Inquiries/Access our service(s)"
+                      placeholder="Inquiries or Booking"
                       required
                     />
                     <button className="btn-primary" name="submit">
-                      Submit <i className="fas fa-envelope icon"></i>
+                      Submit{" "}
+                      <FontAwesomeIcon
+                        icon={faPaperPlane}
+                        className="paperplane"
+                      />
                     </button>
                   </form>
-                  <h5>Reach Me</h5>
-                  <ul className="social-links">
+                  <h5 className="hide-on-large-only">Reach Me</h5>
+                  <ul className="social-links hide-on-large-only">
                     <li>
                       <a
                         href="https://web.facebook.com/maxwelljr.kapezi/"

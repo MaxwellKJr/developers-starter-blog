@@ -32,7 +32,7 @@ const About = ({ data, location }) => {
                   <h4>About Me</h4>
                   <p>
                     My name is Maxwell Kapezi Jr. I am a Web Developer from the
-                    Warm Heart of Africa, Malawi 🇲🇼, currently focusing on{" "}
+                    Warm Heart of Africa, Malawi, currently focusing on{" "}
                     <a
                       href="https://reactjs.org"
                       target="_blank"

@@ -5,7 +5,7 @@ const Project = () => {
   const state = [
     {
       pID: 1,
-      name: "Floss's Clothing",
+      name: "Flossy's Clothing",
       imageURL: "https://www.udrop.com/file/4Yd9/flossysclothing.png",
       projectURL: "https://flossysclothing.web.app",
       tags: ["React", "JavaScript", "CSS"],
