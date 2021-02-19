@@ -5,9 +5,9 @@ module.exports = {
       name: `Maxwell Kapezi, Jr.`,
       summary: `is a Malawian😎 programmer and creative writer & college student.`,
     },
-    description: `MJ Codes is a platform to showcase my web development journey and share the few things I know, from web development to creative writing. One line of code at a time.`,
+    description: `MJ Codes is a platform created by Maxwell Kapezi Jr. to showcase his web development journey and share the few things he knows, from web development and things tech related. One line of code at a time.`,
     siteUrl: `https://mjcodes.netlify.app/`,
-    siteThumbnail: "https://www.udrop.com/file/9aqZ/mjcodes.png",
+    siteThumbnail: `https://www.udrop.com/file/9aqZ/mjcodes.png`,
     social: {
       twitter: `@maxwellKJr`,
     },
