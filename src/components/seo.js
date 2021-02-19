@@ -32,6 +32,7 @@ const SEO = ({ description, lang, meta, title, siteUrl, siteThumbnail }) => {
   const metaDescription = description || site.siteMetadata.description
   const thumbnail = siteThumbnail
   const url = siteUrl
+
   return (
     <Helmet
       htmlAttributes={{
