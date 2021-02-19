@@ -19,7 +19,7 @@ const BlogIndex = ({ data, location }) => {
                 <div className="details">
                   <h1>The Struggling Programmer</h1>
                   <p className="occupations">
-                    Junior Web Developer | Writer | Gamer
+                    Full-Stack Web Developer | Writer | Gamer
                   </p>
                   <p>
                     A platform to showcase my web development journey and share
@@ -29,6 +29,7 @@ const BlogIndex = ({ data, location }) => {
                     <Link to="/projects" className="btn-primary">
                       View Projects
                     </Link>
+
                     <Link to="/contact" className="btn-primary">
                       Contact Me
                     </Link>

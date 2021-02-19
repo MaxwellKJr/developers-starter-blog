@@ -3,12 +3,18 @@ import { graphql } from "gatsby"
 import Layout from "../layouts/index"
 import SEO from "../components/seo"
 
+import Project from "../components/project"
+import "./css/projects.css"
+
 const Projects = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="Projects" />
-      <h5 className="center-align">Nothing on this page. Yet</h5>
+      <div className="container center-align">
+        <h3 className="center-align">My Work</h3>
+        <Project />
+      </div>
     </Layout>
   )
 }
