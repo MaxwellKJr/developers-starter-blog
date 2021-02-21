@@ -34,7 +34,7 @@ const Header = () => {
   return (
     <nav className="main-nav">
       <div className="wrapper">
-        <Link to="/" className="logo" title="The Malawian🇲🇼 Developer">
+        <Link to="/" className="logo" title="The Malawian😎 Developer">
           {title}
         </Link>
         <ul className="nav-links">

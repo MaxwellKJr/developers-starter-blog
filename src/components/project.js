@@ -7,7 +7,7 @@ const Project = () => {
       pID: 1,
       name: "Flossy's Clothing",
       imageURL: "https://www.udrop.com/file/4Yd9/flossysclothing.png",
-      projectURL: "https://flossys-clothing.web.app",
+      projectURL: "https://flossysclothing.netlify.app",
       tags: ["React", "JavaScript", "CSS"],
     },
     {
@@ -29,7 +29,7 @@ const Project = () => {
       pID: 4,
       name: "Toxic Arts",
       imageURL: "https://www.udrop.com/file/4Yda/toxicart.png",
-      projectURL: "toxicarts.netlify.app",
+      projectURL: "https://toxicarts.netlify.app",
       tags: ["HTML", "CSS"],
     },
     {
