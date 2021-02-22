@@ -4,7 +4,6 @@ import Layout from "../layouts/index"
 import SEO from "../components/seo"
 
 import Project from "../components/project"
-import "./css/projects.css"
 
 const Projects = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title

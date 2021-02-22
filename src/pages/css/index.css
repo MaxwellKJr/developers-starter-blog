@@ -50,7 +50,7 @@ button {
   justify-content: center;
   align-items: center;
   background: var(--primary-light);
-  color: #333;
+  color: var(--primary-dark);
   font-weight: 700;
   position: relative;
   transition: all 300ms ease-in-out;
